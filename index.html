@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BMI 計算機</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i,700'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <section class="calculator">
+    <section class="content">
+      <h1>BMI 計算機</h1>
+      <div class="cal_bmi">
+        <label for="height">身高：</label>
+        <input type="number" class="height" min="0">CM
+        
+        <label for="體重">體重：</label>
+        <input type="number" class="weight" min="0">KG
+      </div>
+      <div class="cal_btn">
+        <input type="submit" value="計算" class="calBmi">
+        <i class="fas fa-undo reset" title="重新整理"></i>
+      </div>
+    </section>
+    <section class="result">
+      <h2 class="result_txt">你的BMI</h2>
+      <p id="bmiText"></p>
+      <p id="resultText">0</p>
+    </section>
+  </section>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
